@@ -2,7 +2,7 @@
 /* ==UserStyle==
 @name           Raw Tag Based (Compact)
 @namespace      github.com/openstyles/stylus
-@version        1.0.0
+@version        1.0.1
 @description    In game tag based highlighting with no filtering, applied only in compact view
 @author         Kvan7
 @updateURL https://gist.github.com/Kvan7/8df022ba53df4909ad797fab52e2d982#file-tagOnlyCompact-user-css
@@ -24,6 +24,170 @@
     display: none
 }
 
+/* All caster tagged stats */
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_4226189338"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2254480358"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_591105508"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1545858329"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1600707273"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_124131830"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2910761524"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1493211587"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_153777645"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2672805335"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2891184298"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1174076861"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_656291658"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1136768410"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1914226331"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_737908626"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_274716455"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2353576063"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2920970371"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_712554801"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1913583994"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2488361432"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2306522833"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2974417149"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2818518881"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3491815140"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1850249186"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3176481473"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_4136346606"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_347220474"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3544050945"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3407849389"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_289128254"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1286199571"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1550131834"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2378065031"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2609822974"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2918129907"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1078309513"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3711973554"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_281311123"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3091578504"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1920747151"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1027889455"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_170426423"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_98977150"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3488640354"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_558910024"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_4103440490"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2326202293"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2474424958"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1013492127"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2348696937"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1088082880"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3067892458"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_30642521"]{
+color: #d800ff
+}
+/* All gem tagged stats */
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_67169579"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_4226189338"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2254480358"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2251279027"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2061237517"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2901213448"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_599749213"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_591105508"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1147690586"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1545858329"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2162097452"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1600707273"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_4283407333"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_124131830"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3655769732"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3598729471"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_4031148736"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_21302430"]{
+color: #d2eaa0
+}
+/* All attribute tagged stats */
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3261801346"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2300185227"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_328541901"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_4080418644"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_538848803"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1535626285"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1379411836"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3143208761"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_4139681126"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_656461285"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_734614379"]{
+color: #ccff00
+}
+/* All intelligence tagged stats */
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2300185227"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_328541901"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1535626285"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_656461285"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3111921451"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3116427713"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_4187571952"]{
+color: #5a5aff
+}
+/* All dexterity tagged stats */
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3261801346"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2300185227"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_538848803"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_4139681126"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1938221597"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2570249991"]{
+color: #5aff5a
+}
+/* All strength tagged stats */
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_4080418644"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_538848803"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1535626285"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2408276841"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_734614379"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3871530702"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2539290279"]{
+color: #ff5a5a
+}
+/* All critical tagged stats */
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_446027070"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3814876985"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3556824919"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3714003708"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_4164870816"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2456523742"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_587431675"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1045789614"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2194114101"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_737908626"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2856328513"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_274716455"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_440490623"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1659564104"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_21824003"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2694482655"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_518292764"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3613173483"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3057012405"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1250712710"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3550545679"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1451444093"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1286199571"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1289045485"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_62849030"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3414998042"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1508661598"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1550131834"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3855016469"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3389184522"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1854213750"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_491450213"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_170426423"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1163615092"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_4294267596"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2516303866"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_4159551976"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_4058681894"]{
+color: #a8ff00
+}
 /* All lightning tagged stats */
 #trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1078455967"], 
 #trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1147690586"], 
@@ -192,7 +356,114 @@ color: #b97123
 #trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3398787959"], 
 #trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3837707023"], 
 #trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3164544692"]{
-color: #ad47ad
+color: #a944ff
+}
+/* All physical tagged stats */
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3441651621"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_321765853"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_4176970656"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3612407781"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2881298780"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1600707273"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3771516363"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1009412152"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2415497478"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3423694372"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1519615863"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_434750362"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1459321413"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1692879867"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1692879867"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1310194496"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3166958180"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1509134228"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2768835289"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2423248184"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3735888493"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3205239847"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1092987622"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_4129825612"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1374654984"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_321970274"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_425242359"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1940865751"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3032590688"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1574590649"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_300723956"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_261503687"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2055966527"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2723294374"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3620731914"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3828375170"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1103616075"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2091621414"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1658498488"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3058238353"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1503146834"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_4019237939"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_915546383"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1695767482"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2557965901"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_707457662"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_55876295"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_669069897"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3960211755"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3119612865"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1138708335"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3588388638"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3093465148"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_4112450013"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2041668411"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1088082880"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3181887481"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3694078435"]{
+color: #e1b900
+}
+/* All speed tagged stats */
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1881230714"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1207554355"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_210067635"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_681332047"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_889691035"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_720908147"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_314741699"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_4145314483"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3759735052"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1135928777"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3283482523"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1165163804"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2672805335"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2891184298"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1174076861"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_656291658"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1136768410"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1914226331"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3192728503"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1913583994"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2488361432"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2306522833"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2250533757"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2590797182"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1541516339"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3393547195"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_649025131"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3759663284"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_710476746"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_970213192"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3313255158"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_918325986"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3374165039"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1316278494"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3233599707"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2146799605"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3156445245"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1998951374"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_289128254"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2378065031"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2293111154"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1714971114"], 
+#trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3091578504"]{
+color: #00ffc0
 }
 /* All mana tagged stats */
 #trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2122183138"], 
@@ -238,7 +509,7 @@ color: #ad47ad
 #trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_1002973905"], 
 #trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_648019518"], 
 #trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_959641748"]{
-color: #4e9dd1
+color: #00f0ff
 }
 /* All life tagged stats */
 #trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3325883026"], 
