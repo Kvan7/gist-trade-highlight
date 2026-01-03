@@ -1,6 +1,15 @@
-/* Will highlight all with tags, no filtering */
 
+/* ==UserStyle==
+@name           Trade Tag Highlight
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Tag based highlighting for trade2, based on highlighting in compact view but extended to many more stats
+@author         Kvan7
+@updateURL https://gist.github.com/Kvan7/8df022ba53df4909ad797fab52e2d982#file-userstyle-user-css
+==/UserStyle== */
 
+@-moz-document url-prefix("https://www.pathofexile.com/trade2")
+{
 /*  */
 #trade .results.compact .explicitMod > .lc.s,
 #trade .results.compact .implicitMod > .lc.s,
@@ -303,4 +312,7 @@
 #trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_3942946753"], 
 #trade .results.compact .explicitMod>.lc.s[data-field="stat.explicit.stat_2035336006"] {
 	color: #d14e4e;
+}
+
+
 }
