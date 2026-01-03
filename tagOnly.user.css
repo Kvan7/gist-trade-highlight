@@ -2,7 +2,7 @@
 /* ==UserStyle==
 @name           Raw Tag Based
 @namespace      github.com/openstyles/stylus
-@version        1.0.1
+@version        1.0.2
 @description    In game tag based highlighting with no filtering
 @author         Kvan7
 @updateURL https://gist.github.com/Kvan7/8df022ba53df4909ad797fab52e2d982#file-tagOnly-user-css
@@ -116,7 +116,7 @@ color: #d2eaa0
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_4139681126"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_656461285"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_734614379"]{
-color: #ccff00
+color: #7aaa00
 }
 /* All intelligence tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2300185227"], 
@@ -126,7 +126,7 @@ color: #ccff00
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3111921451"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3116427713"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_4187571952"]{
-color: #5a5aff
+color: #5555ff
 }
 /* All dexterity tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3261801346"], 
@@ -135,7 +135,7 @@ color: #5a5aff
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_4139681126"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1938221597"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2570249991"]{
-color: #5aff5a
+color: #22ff22
 }
 /* All strength tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_4080418644"], 
@@ -145,7 +145,7 @@ color: #5aff5a
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_734614379"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3871530702"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2539290279"]{
-color: #ff5a5a
+color: #ff0000
 }
 /* All critical tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_446027070"], 
@@ -366,16 +366,9 @@ color: #a944ff
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2881298780"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1600707273"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3771516363"], 
-#trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1009412152"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2415497478"], 
-#trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3423694372"], 
-#trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1519615863"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_434750362"], 
-#trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1459321413"], 
-#trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1692879867"], 
-#trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1692879867"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1310194496"], 
-#trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3166958180"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1509134228"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2768835289"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2423248184"], 
@@ -389,19 +382,13 @@ color: #a944ff
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1940865751"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3032590688"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1574590649"], 
-#trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_300723956"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_261503687"], 
-#trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2055966527"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2723294374"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3620731914"], 
-#trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3828375170"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1103616075"], 
-#trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2091621414"], 
-#trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1658498488"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3058238353"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1503146834"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_4019237939"], 
-#trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_915546383"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1695767482"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2557965901"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_707457662"], 
@@ -412,12 +399,11 @@ color: #a944ff
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1138708335"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3588388638"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3093465148"], 
-#trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_4112450013"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2041668411"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1088082880"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3181887481"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3694078435"]{
-color: #e1b900
+color: #0d8800
 }
 /* All speed tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1881230714"], 
@@ -509,7 +495,7 @@ color: #00ffc0
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1002973905"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_648019518"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_959641748"]{
-color: #00f0ff
+color: #00d0dd
 }
 /* All life tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3325883026"], 
