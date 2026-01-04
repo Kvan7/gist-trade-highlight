@@ -28,9 +28,8 @@ or use the install links below
 [Install](https://github.com/Kvan7/gist-trade-highlight/raw/refs/heads/main/tagOnly.user.css)
 
 Very rudimentary, just strictly takes the tags on the mods and adds different colors to different tags. The only changes
-to strictly the in game tags are adding different colors to str, dex, and int, not showing bleeding as physical, and making
+to strictly the in game tags are adding different colors to str, dex, and int, and making
 +levels without the "gem" tag display as +levels with the "gem" tag.
-
 ![sample](./img/sample.png)
 
 ### Raw Tag Based, compact only
