@@ -2,7 +2,7 @@
 /* ==UserStyle==
 @name           Raw Tag Based
 @namespace      github.com/openstyles/stylus
-@version        1.0.4
+@version        1.0.5
 @description    In game tag based highlighting with no filtering
 @author         Kvan7
 @updateURL      https://github.com/Kvan7/gist-trade-highlight/raw/refs/heads/main/tagOnly.user.css
@@ -114,8 +114,15 @@
 color: var(--CASTER-COLOR);
 }
 /* All gem tagged stats */
+#trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2157870819"], 
+#trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3709513762"], 
+#trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3948285912"], 
+#trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1042153418"], 
+#trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3507701584"], 
+#trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3035140377"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_67169579"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_4226189338"], 
+#trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1078455967"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2254480358"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2251279027"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2061237517"], 
@@ -124,8 +131,10 @@ color: var(--CASTER-COLOR);
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_591105508"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1147690586"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1545858329"], 
+#trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_9187492"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2162097452"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1600707273"], 
+#trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1202301673"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_4283407333"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_124131830"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3655769732"], 
