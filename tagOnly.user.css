@@ -2,7 +2,7 @@
 /* ==UserStyle==
 @name           Raw Tag Based
 @namespace      github.com/openstyles/stylus
-@version        1.0.2
+@version        1.0.3
 @description    In game tag based highlighting with no filtering
 @author         Kvan7
 @updateURL https://gist.github.com/Kvan7/8df022ba53df4909ad797fab52e2d982#file-tagOnly-user-css
@@ -10,6 +10,35 @@
 
 @-moz-document url-prefix("https://www.pathofexile.com/trade2")
 {
+
+
+:root {
+    --LIFE-COLOR: #d14e4e;
+    --MANA-COLOR: #00d0dd;
+    --SPEED-COLOR: #00ffc0;
+    --PHYSICAL-COLOR: #0d8800;
+    --CHAOS-COLOR: #a944ff;
+    --FIRE-COLOR: #b97123;
+    --COLD-COLOR: #3f6db3;
+    --LIGHTNING-COLOR: #adaa47;
+    --CRITICAL-COLOR: #a8ff00;
+    --ATTACK-COLOR: #ff9000;
+    --DAMAGE-COLOR: #d30000;
+    --ATTRIBUTE-COLOR: #7aaa00;
+    --AILMENT-COLOR: #00e120;
+    --AURA-COLOR: #ff99fe;
+    --BLEED-COLOR: #d30000;
+    --CASTER-COLOR: #d800ff;
+    --MINION-COLOR: #ffc4e4;
+    --DEFENCES-COLOR: #dddddd;
+    --POISON-COLOR: #00e120;
+    --GEM-COLOR: #d2eaa0;
+    --STR-COLOR: #ff0000;
+    --DEX-COLOR: #22ff22;
+    --INT-COLOR: #5555ff;
+    --ELEMENTAL-COLOR: #ffffff;
+    --RESISTANCE-COLOR: #ffffff;
+}
 
 
 /*  */
@@ -81,7 +110,8 @@
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1088082880"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3067892458"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_30642521"]{
-color: #d800ff
+/* All caster tagged stats */
+color: var(--CASTER-COLOR);
 }
 /* All gem tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_67169579"], 
@@ -102,7 +132,8 @@ color: #d800ff
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3598729471"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_4031148736"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_21302430"]{
-color: #d2eaa0
+/* All gem tagged stats */
+color: var(--GEM-COLOR);
 }
 /* All attribute tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3261801346"], 
@@ -116,7 +147,8 @@ color: #d2eaa0
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_4139681126"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_656461285"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_734614379"]{
-color: #7aaa00
+/* All attribute tagged stats */
+color: var(--ATTRIBUTE-COLOR);
 }
 /* All intelligence tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2300185227"], 
@@ -126,7 +158,8 @@ color: #7aaa00
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3111921451"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3116427713"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_4187571952"]{
-color: #5555ff
+/* All intelligence tagged stats */
+color: var(--INT-COLOR);
 }
 /* All dexterity tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3261801346"], 
@@ -135,7 +168,8 @@ color: #5555ff
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_4139681126"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1938221597"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2570249991"]{
-color: #22ff22
+/* All dexterity tagged stats */
+color: var(--DEX-COLOR);
 }
 /* All strength tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_4080418644"], 
@@ -145,7 +179,8 @@ color: #22ff22
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_734614379"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3871530702"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2539290279"]{
-color: #ff0000
+/* All strength tagged stats */
+color: var(--STR-COLOR);
 }
 /* All critical tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_446027070"], 
@@ -186,7 +221,8 @@ color: #ff0000
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2516303866"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_4159551976"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_4058681894"]{
-color: #a8ff00
+/* All critical tagged stats */
+color: var(--CRITICAL-COLOR);
 }
 /* All lightning tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1078455967"], 
@@ -232,7 +268,8 @@ color: #a8ff00
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_4256314560"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_215346464"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3694078435"]{
-color: #adaa47
+/* All lightning tagged stats */
+color: var(--LIGHTNING-COLOR);
 }
 /* All cold tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1515531208"], 
@@ -274,7 +311,8 @@ color: #adaa47
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_331648983"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2306924373"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3612464552"]{
-color: #3f6db3
+/* All cold tagged stats */
+color: var(--COLD-COLOR);
 }
 /* All fire tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1993950627"], 
@@ -314,7 +352,8 @@ color: #3f6db3
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2518598473"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_331648983"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_947072590"]{
-color: #b97123
+/* All fire tagged stats */
+color: var(--FIRE-COLOR);
 }
 /* All chaos tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_67169579"], 
@@ -356,7 +395,8 @@ color: #b97123
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3398787959"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3837707023"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3164544692"]{
-color: #a944ff
+/* All chaos tagged stats */
+color: var(--CHAOS-COLOR);
 }
 /* All physical tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3441651621"], 
@@ -403,7 +443,8 @@ color: #a944ff
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1088082880"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3181887481"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3694078435"]{
-color: #0d8800
+/* All physical tagged stats */
+color: var(--PHYSICAL-COLOR);
 }
 /* All speed tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1881230714"], 
@@ -449,7 +490,8 @@ color: #0d8800
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2293111154"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1714971114"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3091578504"]{
-color: #00ffc0
+/* All speed tagged stats */
+color: var(--SPEED-COLOR);
 }
 /* All mana tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2122183138"], 
@@ -495,7 +537,8 @@ color: #00ffc0
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1002973905"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_648019518"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_959641748"]{
-color: #00d0dd
+/* All mana tagged stats */
+color: var(--MANA-COLOR);
 }
 /* All life tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3325883026"], 
@@ -565,6 +608,7 @@ color: #00d0dd
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_613752285"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2035336006"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_854225133"]{
-color: #d14e4e
+/* All life tagged stats */
+color: var(--LIFE-COLOR);
 }
 }
