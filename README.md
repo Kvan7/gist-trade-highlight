@@ -9,6 +9,7 @@ Adds different highlighting to mods on the trade 2 site
   - [Styles](#styles)
     - [Raw Tag Based](#raw-tag-based)
     - [Raw Tag Based, compact only](#raw-tag-based-compact-only)
+    - [Kvan7 CSS (Personalized Tag Based)](#kvan7-css-personalized-tag-based)
 
 ## Install
 
@@ -39,3 +40,13 @@ to strictly the in game tags are adding different colors to str, dex, and int, a
 Same as above, but doesn't change the "default" view, only the compact one(which had a small amount of highlighting before)
 
 ![sample](./img/compactSample.png)
+
+### Kvan7 CSS (Personalized Tag Based)
+
+[Install](https://github.com/Kvan7/gist-trade-highlight/raw/refs/heads/main/kvanRules.user.css)
+
+This is the one I use. So it has some decent opinionation on what it highlights, but has additional bells and whistles.
+Also will be most actively updated since I use it.
+
+NOTE: **Hides "Bonded: *" rune modifiers**
+(I should really make it hide minion mods too. . . . )

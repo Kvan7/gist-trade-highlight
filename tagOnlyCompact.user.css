@@ -2,7 +2,7 @@
 /* ==UserStyle==
 @name           Raw Tag Based (Compact)
 @namespace      github.com/openstyles/stylus
-@version        1.0.7
+@version        1.0.8
 @description    In game tag based highlighting with no filtering, applied only in compact view
 @author         Kvan7
 @updateURL      https://github.com/Kvan7/gist-trade-highlight/raw/refs/heads/main/tagOnlyCompact.user.css
@@ -29,7 +29,7 @@
     --AURA-COLOR: #ff99fe;
     --BLEED-COLOR: #7a0000;
     --CASTER-COLOR: #bc00dd;
-    --MINION-COLOR: #ffc4e4;
+    --MINION-COLOR: #ff5eb5;
     --DEFENCES-COLOR: #dddddd;
     --POISON-COLOR: #00e120;
     --GEM-COLOR: #d2eaa0;
