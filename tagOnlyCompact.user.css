@@ -6,6 +6,34 @@
 @description    In game tag based highlighting with no filtering, applied only in compact view
 @author         Kvan7
 @updateURL      https://github.com/Kvan7/gist-trade-highlight/raw/refs/heads/main/tagOnlyCompact.user.css
+
+@var color life "life" #d14e4e
+@var color mana "mana" #00d0dd
+@var color speed "speed" #00ffc0
+@var color physical "physical" #0d8800
+@var color chaos "chaos" #8a00ff
+@var color fire "fire" #b97123
+@var color cold "cold" #3f6db3
+@var color lightning "lightning" #adaa47
+@var color critical "critical" #a8ff00
+@var color attack "attack" #ff9000
+@var color damage "damage" #ffb4b4
+@var color attribute "attribute" #7aaa00
+@var color ailment "ailment" #00e120
+@var color aura "aura" #ff99fe
+@var color bleed "bleed" #7a0000
+@var color caster "caster" #bc00dd
+@var color minion "minion" #ff5eb5
+@var color defences "defences" #dddddd
+@var color poison "poison" #00e120
+@var color gem "gem" #d2eaa0
+@var color strength "strength" #ff0000
+@var color dexterity "dexterity" #22ff22
+@var color intelligence "intelligence" #5555ff
+@var color curse "curse" #6c44ff
+@var color elemental "elemental" #ffffff
+@var color resistance "resistance" #ffffff
+
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://www.pathofexile.com/trade2")
@@ -13,32 +41,32 @@
 
 
 :root {
-    --LIFE-COLOR: #d14e4e;
-    --MANA-COLOR: #00d0dd;
-    --SPEED-COLOR: #00ffc0;
-    --PHYSICAL-COLOR: #0d8800;
-    --CHAOS-COLOR: #8a00ff;
-    --FIRE-COLOR: #b97123;
-    --COLD-COLOR: #3f6db3;
-    --LIGHTNING-COLOR: #adaa47;
-    --CRITICAL-COLOR: #a8ff00;
-    --ATTACK-COLOR: #ff9000;
-    --DAMAGE-COLOR: #ffb4b4;
-    --ATTRIBUTE-COLOR: #7aaa00;
-    --AILMENT-COLOR: #00e120;
-    --AURA-COLOR: #ff99fe;
-    --BLEED-COLOR: #7a0000;
-    --CASTER-COLOR: #bc00dd;
-    --MINION-COLOR: #ff5eb5;
-    --DEFENCES-COLOR: #dddddd;
-    --POISON-COLOR: #00e120;
-    --GEM-COLOR: #d2eaa0;
-    --STR-COLOR: #ff0000;
-    --DEX-COLOR: #22ff22;
-    --INT-COLOR: #5555ff;
-    --CURSE-COLOR: #6c44ff;
-    --ELEMENTAL-COLOR: #ffffff;
-    --RESISTANCE-COLOR: #ffffff;
+    --LIFE-COLOR: life;
+    --MANA-COLOR: mana;
+    --SPEED-COLOR: speed;
+    --PHYSICAL-COLOR: physical;
+    --CHAOS-COLOR: chaos;
+    --FIRE-COLOR: fire;
+    --COLD-COLOR: cold;
+    --LIGHTNING-COLOR: lightning;
+    --CRITICAL-COLOR: critical;
+    --ATTACK-COLOR: attack;
+    --DAMAGE-COLOR: damage;
+    --ATTRIBUTE-COLOR: attribute;
+    --AILMENT-COLOR: ailment;
+    --AURA-COLOR: aura;
+    --BLEED-COLOR: bleed;
+    --CASTER-COLOR: caster;
+    --MINION-COLOR: minion;
+    --DEFENCES-COLOR: defences;
+    --POISON-COLOR: poison;
+    --GEM-COLOR: gem;
+    --STR-COLOR: strength;
+    --DEX-COLOR: dexterity;
+    --INT-COLOR: intelligence;
+    --CURSE-COLOR: curse;
+    --ELEMENTAL-COLOR: elemental;
+    --RESISTANCE-COLOR: resistance;
 }
 
 

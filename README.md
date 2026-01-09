@@ -48,5 +48,6 @@ Same as above, but doesn't change the "default" view, only the compact one(which
 This is the one I use. So it has some decent opinionation on what it highlights, but has additional bells and whistles.
 Also will be most actively updated since I use it.
 
-NOTE: **Hides "Bonded: *" rune modifiers**
+NOTE: ***Hides "Bonded: *" rune modifiers***
+
 (I should really make it hide minion mods too. . . . )
