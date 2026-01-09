@@ -2,10 +2,11 @@
 /* ==UserStyle==
 @name           Raw Tag Based
 @namespace      github.com/openstyles/stylus
-@version        1.0.11
+@version        1.0.12
 @description    In game tag based highlighting with no filtering
 @author         Kvan7
 @updateURL      https://github.com/Kvan7/gist-trade-highlight/raw/refs/heads/main/tagOnly.user.css
+@preprocessor   stylus
 
 @var color life "life" #d14e4e
 @var color mana "mana" #00d0dd
@@ -89,7 +90,7 @@ text-decoration: underline;
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3045072899"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1776968075"]{
 /* All resistance tagged stats */
-color: var(--resistance);
+color: resistance;
 }
 /* All elemental tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1515531208"], 
@@ -224,7 +225,7 @@ color: var(--resistance);
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3694078435"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2890792988"]{
 /* All elemental tagged stats */
-color: var(--elemental);
+color: elemental;
 }
 /* All defences tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_809229260"], 
@@ -286,7 +287,7 @@ color: var(--elemental);
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_613752285"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1683578560"]{
 /* All defences tagged stats */
-color: var(--defences);
+color: defences;
 }
 /* All attack tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3441651621"], 
@@ -415,7 +416,7 @@ color: var(--defences);
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3675300253"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1434716233"]{
 /* All attack tagged stats */
-color: var(--attack);
+color: attack;
 }
 /* All damage tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_4176970656"], 
@@ -552,7 +553,7 @@ color: var(--attack);
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2516303866"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_4058681894"]{
 /* All damage tagged stats */
-color: var(--damage);
+color: damage;
 }
 /* All ailment tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1009412152"], 
@@ -628,7 +629,7 @@ color: var(--damage);
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_947072590"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_215346464"]{
 /* All ailment tagged stats */
-color: var(--ailment);
+color: ailment;
 }
 /* All caster tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_4226189338"], 
@@ -688,7 +689,7 @@ color: var(--ailment);
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3067892458"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_30642521"]{
 /* All caster tagged stats */
-color: var(--caster);
+color: caster;
 }
 /* All aura tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2173791158"], 
@@ -701,7 +702,7 @@ color: var(--caster);
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_724806967"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_83011992"]{
 /* All aura tagged stats */
-color: var(--aura);
+color: aura;
 }
 /* All curse tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2157870819"], 
@@ -727,7 +728,7 @@ color: var(--aura);
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2326202293"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_30642521"]{
 /* All curse tagged stats */
-color: var(--curse);
+color: curse;
 }
 /* All attribute tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3261801346"], 
@@ -747,7 +748,7 @@ color: var(--curse);
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2739148464"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_4245256219"]{
 /* All attribute tagged stats */
-color: var(--attribute);
+color: attribute;
 }
 /* All intelligence tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2153364323"], 
@@ -761,7 +762,7 @@ color: var(--attribute);
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_4187571952"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2230687504"]{
 /* All intelligence tagged stats */
-color: var(--intelligence);
+color: intelligence;
 }
 /* All dexterity tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1133453872"], 
@@ -774,7 +775,7 @@ color: var(--intelligence);
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2570249991"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2230687504"]{
 /* All dexterity tagged stats */
-color: var(--dexterity);
+color: dexterity;
 }
 /* All strength tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2833226514"], 
@@ -789,7 +790,7 @@ color: var(--dexterity);
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2539290279"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2230687504"]{
 /* All strength tagged stats */
-color: var(--strength);
+color: strength;
 }
 /* All critical tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_446027070"], 
@@ -831,7 +832,7 @@ color: var(--strength);
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_4159551976"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_4058681894"]{
 /* All critical tagged stats */
-color: var(--critical);
+color: critical;
 }
 /* All lightning tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1078455967"], 
@@ -884,7 +885,7 @@ color: var(--critical);
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_215346464"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3694078435"]{
 /* All lightning tagged stats */
-color: var(--lightning);
+color: lightning;
 }
 /* All cold tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1515531208"], 
@@ -933,7 +934,7 @@ color: var(--lightning);
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2306924373"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3612464552"]{
 /* All cold tagged stats */
-color: var(--cold);
+color: cold;
 }
 /* All fire tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1993950627"], 
@@ -978,7 +979,7 @@ color: var(--cold);
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_331648983"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_947072590"]{
 /* All fire tagged stats */
-color: var(--fire);
+color: fire;
 }
 /* All chaos tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_67169579"], 
@@ -1021,7 +1022,7 @@ color: var(--fire);
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3837707023"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3164544692"]{
 /* All chaos tagged stats */
-color: var(--chaos);
+color: chaos;
 }
 /* All physical tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3441651621"], 
@@ -1083,7 +1084,7 @@ color: var(--chaos);
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3181887481"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3694078435"]{
 /* All physical tagged stats */
-color: var(--physical);
+color: physical;
 }
 /* All speed tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1881230714"], 
@@ -1130,7 +1131,7 @@ color: var(--physical);
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1714971114"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3091578504"]{
 /* All speed tagged stats */
-color: var(--speed);
+color: speed;
 }
 /* All poison tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_795138349"], 
@@ -1149,7 +1150,7 @@ color: var(--speed);
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_62849030"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_95221307"]{
 /* All poison tagged stats */
-color: var(--poison);
+color: poison;
 }
 /* All bleed tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_1009412152"], 
@@ -1169,7 +1170,7 @@ color: var(--poison);
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_915546383"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_4112450013"]{
 /* All bleed tagged stats */
-color: var(--bleed);
+color: bleed;
 }
 /* All minion tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2162097452"], 
@@ -1198,7 +1199,7 @@ color: var(--bleed);
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3045072899"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_4007938693"]{
 /* All minion tagged stats */
-color: var(--minion);
+color: minion;
 }
 /* All mana tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2122183138"], 
@@ -1245,7 +1246,7 @@ color: var(--minion);
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_648019518"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_959641748"]{
 /* All mana tagged stats */
-color: var(--mana);
+color: mana;
 }
 /* All life tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_3325883026"], 
@@ -1316,7 +1317,7 @@ color: var(--mana);
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2035336006"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_854225133"]{
 /* All life tagged stats */
-color: var(--life);
+color: life;
 }
 /* All gem tagged stats */
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_2157870819"], 
@@ -1347,6 +1348,6 @@ color: var(--life);
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_4031148736"], 
 #trade .results .explicitMod>.lc.s[data-field="stat.explicit.stat_21302430"]{
 /* All gem tagged stats */
-color: var(--gem);
+color: gem;
 }
 }
