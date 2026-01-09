@@ -2,11 +2,12 @@
 /* ==UserStyle==
 @name           Kvan7's CSS
 @namespace      github.com/openstyles/stylus
-@version        1.0.10
+@version        1.0.11
 @description    Rules based on in game tags, but with some custom rules that I like
 @author         Kvan7
 @updateURL      https://github.com/Kvan7/gist-trade-highlight/raw/refs/heads/main/kvanRules.user.css
 
+@var checkbox hideBonded "Hide Bonded" 1
 @var color life "life" #d14e4e
 @var color mana "mana" #00d0dd
 @var color speed "speed" #00ffc0
@@ -50,6 +51,15 @@
 /* ultimatum related */
 #trade .results.compact .ultimatumMods {
     display: none
+}
+
+
+#trade .results .fracturedMod {
+    font-weight: bold;
+}
+
+#trade .results .property.skill {
+    font-weight: bold;
 }
 
 /* maximum res stats (custom tag) */
@@ -838,11 +848,14 @@ color: var(--critical);
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_1147690586"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_1545858329"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_2466011626"], 
+#trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_3950000557"], 
+#trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_2045949233"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_2889664727"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_2604619892"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_2231156303"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_2527686725"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_3668351662"], 
+#trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_293638271"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_2109189637"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_2970621759"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_321970274"], 
@@ -874,6 +887,9 @@ color: var(--critical);
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_3246948616"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_3999959974"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_3093465148"], 
+#trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_3998863698"], 
+#trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_1984618452"], 
+#trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_2508044078"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_4256314560"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_215346464"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_3694078435"]{
@@ -888,6 +904,9 @@ color: var(--lightning);
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_3485067555"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_3291658075"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_2604619892"], 
+#trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_473429811"], 
+#trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_232701452"], 
+#trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_1697447343"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_1073942215"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_828179689"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_3679418014"], 
@@ -916,6 +935,9 @@ color: var(--lightning);
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_1011772129"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_3201111383"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_1138708335"], 
+#trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_3998863698"], 
+#trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_1984618452"], 
+#trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_2508044078"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_2955966707"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_331648983"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_2306924373"], 
@@ -932,6 +954,7 @@ color: var(--cold);
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_42242677"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_2604619892"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_3962278098"], 
+#trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_2968503605"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_1086147743"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_3205239847"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_1742651309"], 
@@ -958,6 +981,9 @@ color: var(--cold);
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_3015669065"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_701564564"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_3588388638"], 
+#trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_3998863698"], 
+#trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_1984618452"], 
+#trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_2508044078"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_2518598473"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_331648983"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_947072590"]{
@@ -1117,7 +1143,9 @@ color: var(--physical);
 color: var(--speed);
 }
 /* All poison tagged stats */
+#trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_795138349"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_3954735777"], 
+#trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_1493211587"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_3885634897"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_4250009622"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_2011656677"], 
@@ -1128,7 +1156,8 @@ color: var(--speed);
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_2315177528"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_2973498992"], 
 #trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_2418601510"], 
-#trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_62849030"]{
+#trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_62849030"], 
+#trade .results :is(.explicitMod,.runeMod,.implicitMod,.enchantMod,.desecratedMod) > .lc.s[data-field$="stat_95221307"]{
 /* All poison tagged stats */
 color: var(--poison);
 }
@@ -1322,6 +1351,7 @@ color: var(--life);
 /* All gem tagged stats */
 color: var(--gem);
 }
+if hideBonded {
 /* i dont wanna see bonded ones */
 #trade .results .runeMod > .lc.s[data-field="stat.rune.stat_2573124363"], 
 #trade .results .runeMod > .lc.s[data-field="stat.rune.stat_3533065815"], 
@@ -1403,5 +1433,6 @@ color: var(--gem);
 #trade .results .runeMod > .lc.s[data-field="stat.rune.stat_3925507006"]{
 /* i dont wanna see bonded ones */
 display: none;
+}
 }
 }

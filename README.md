@@ -26,7 +26,7 @@ or use the install links below
 
 ### Raw Tag Based
 
-[Install](https://github.com/Kvan7/gist-trade-highlight/raw/refs/heads/main/tagOnly.user.css)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)]([MY.USER.CSS](https://github.com/Kvan7/gist-trade-highlight/raw/refs/heads/main/tagOnly.user.css))
 
 Very rudimentary, just strictly takes the tags on the mods and adds different colors to different tags. The only changes
 to strictly the in game tags are adding different colors to str, dex, and int, and making
@@ -35,7 +35,7 @@ to strictly the in game tags are adding different colors to str, dex, and int, a
 
 ### Raw Tag Based, compact only
 
-[Install](https://github.com/Kvan7/gist-trade-highlight/raw/refs/heads/main/tagOnlyCompact.user.css)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)]([MY.USER.CSS](https://github.com/Kvan7/gist-trade-highlight/raw/refs/heads/main/tagOnlyCompact.user.css))
 
 Same as above, but doesn't change the "default" view, only the compact one(which had a small amount of highlighting before)
 
@@ -43,7 +43,7 @@ Same as above, but doesn't change the "default" view, only the compact one(which
 
 ### Kvan7 CSS (Personalized Tag Based)
 
-[Install](https://github.com/Kvan7/gist-trade-highlight/raw/refs/heads/main/kvanRules.user.css)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)]([MY.USER.CSS](https://github.com/Kvan7/gist-trade-highlight/raw/refs/heads/main/kvanRules.user.css))
 
 This is the one I use. So it has some decent opinionation on what it highlights, but has additional bells and whistles.
 Also will be most actively updated since I use it.
