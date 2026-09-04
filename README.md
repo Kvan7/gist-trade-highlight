@@ -9,7 +9,7 @@ Adds different highlighting to mods on the trade 2 site
   - [Styles](#styles)
     - [Raw Tag Based](#raw-tag-based)
     - [Raw Tag Based, compact only](#raw-tag-based-compact-only)
-    - [Kvan7 CSS (Personalized Tag Based)](#kvan7-css-personalized-tag-based)
+    - [Opinionated CSS](#opinionated-css)
 
 ## Install
 
@@ -41,11 +41,11 @@ Same as above, but doesn't change the "default" view, only the compact one(which
 
 ![sample](./img/compactSample.png)
 
-### Kvan7 CSS (Personalized Tag Based)
+### Opinionated CSS
 
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://github.com/Kvan7/gist-trade-highlight/raw/refs/heads/main/kvanRules.user.css)
 
-This is the one I use. So it has some decent opinionation on what it highlights, but has additional bells and whistles.
+This one is one that I use so have customized it a bit more, like highlighting fractured mods better, and fully hiding bonded mods.
 Also will be most actively updated since I use it.
 
 NOTE: ***Hides "Bonded: *" rune modifiers***
